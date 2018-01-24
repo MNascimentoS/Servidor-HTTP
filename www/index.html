@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Redes 2 - IOT</title>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav>
+    <div class="nav-wrapper blue">
+      <a href="#" class="brand-logo" style="margin-left: 10px;">Redes 2 -IOT</a>
+    </div>
+  </nav>
+  <main>
+    <div class="card"">
+      <div class="card-content">
+        <p>Descubra a temperatura do seu ambiente de forma simples! Configure sua placa arduino, conecte-a ao computador e atualize a temperatura ;).</p>
+      </div>
+      <div class="card-tabs">
+        <ul class="tabs tabs-fixed-width">
+          <li class="tab"><a class="active" href="#conexao">Conexão com o Arduino</a></li>
+        </ul>
+      </div>
+      <div class="card-content grey lighten-4">
+        <div id="conexao" align="center">
+          <a class="waves-effect waves-light btn blue" onclick="conectarArduino()">Enviar</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" align="center">
+      <div class="card-content">
+        <h1 id="temperatura">0ºC</h1>
+        <a onclick="pegarTemperatura()">Atualizar Temperatura Local.</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-content">
+        <p>Código desenvolvido por Mateus Nascimento e Wellington Correia para a disciplina de Redes 2 da Universidade do Estado da Bahia.</p>
+      </div>
+    </div>
+  </main>
+</body>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
+<script type="text/javascript" src="js/home.js"></script>
+</html>

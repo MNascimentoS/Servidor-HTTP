@@ -1,0 +1,45 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+    overflow-x: hidden;
+    width: auto;
+    height: 100vh;
+    background-color: #EEEEEE;
+}
+
+li a {
+	color: #2196F3;
+}
+
+h1 {
+	color: #0E0E0E;
+	font-family: Arial, sans-serif;
+	top: 0;
+	right: 0;
+}
+
+.card .card-title {
+  font-size: 100px;
+  font-weight: 300;
+}
+
+.card .card-image .card-title {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.card .card-content .card-title {
+  display: block;
+  line-height: 32px;
+  margin-bottom: 8px;
+}
